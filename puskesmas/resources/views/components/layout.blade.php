@@ -28,8 +28,8 @@
     <section class="content-header">
       <div class="container-fluid">
         <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1>Blank Page</h1>
+        <div class="col-sm-6">
+            <h1>{{$page_name}}</h1>
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -59,7 +59,7 @@
           </div>
         </div>
         <div class="card-body">
-          Start creating your amazing application!
+          {{ $page_content }}
         </div>
         <!-- /.card-body -->
         <div class="card-footer">
